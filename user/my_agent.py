@@ -56,7 +56,7 @@ class SubmittedAgent(Agent):
         # self.model.policy.pi_features_extractor.model = self.tt_model
 
     def _gdown(self) -> str:
-        data_path = "rl-model.zip"
+        data_path = "rl-model-ambrose.zip"
         if not os.path.isfile(data_path):
             print(f"Downloading {data_path}...")
             # Place a link to your PUBLIC model data here. This is where we will download it from on the tournament server.
